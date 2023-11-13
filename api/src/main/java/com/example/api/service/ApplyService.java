@@ -40,6 +40,6 @@ public class ApplyService {
 
 //        couponRepository.save(new Coupon((userId)));
         //db에 바로 입력하는 것이 아닌 큐에 등록하도록한다.
-        couponCreateProducer.create(userId); 
+        couponCreateProducer.create(userId);
     }
 }
